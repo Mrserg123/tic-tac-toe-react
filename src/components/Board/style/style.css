@@ -1,0 +1,27 @@
+.board_center {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.board {
+  padding: 20px;
+  height: 297px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.board_background {
+  display: flex;
+  background-color: #555e7f;
+  width: 100%;
+  min-width: 350px;
+  max-width: 600px;
+}
+.board_info {
+  width: 200px;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}

@@ -1,0 +1,118 @@
+.square {
+  width: 100px;
+  height: 120px;
+  cursor: pointer;
+  background-color: #45425f;
+  color: #c4c3c8;
+  z-index: 1;
+}
+
+.board_square_center {
+  border-top-width: 4px;
+  border-top-style: solid;
+  border-top-color: #9a66b1;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  border-bottom-color: #9a66b1;
+}
+.board_square_right {
+  border-right-width: 4px;
+  border-right-style: solid;
+  border-right-color: #9a66b1;
+}
+.square:hover {
+  background-color: #5d6582;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  min-width: 300px;
+  width: 100%;
+  height: 5px;
+  background: red;
+  display: none;
+  left: 0;
+  bottom: 185px;
+  transform: rotate(0.134turn);
+}
+.line_horizontally_1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: red;
+  left: 0;
+  bottom: 310px;
+}
+.line_horizontally_2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: red;
+  left: 0;
+  bottom: 180px;
+}
+.line_horizontally_3::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: red;
+  left: 0;
+  bottom: 60px;
+}
+
+.line_vertically_1::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: red;
+  left: -110px;
+  bottom: 180px;
+  transform: rotate(0.75turn);
+}
+.line_vertically_2::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: red;
+  left: 0;
+  bottom: 180px;
+  transform: rotate(0.75turn);
+}
+.line_vertically_3::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: red;
+  left: 110px;
+  bottom: 180px;
+  transform: rotate(0.75turn);
+}
+.line_rotate_45::after {
+  content: "";
+  position: absolute;
+  min-width: 300px;
+  width: 100%;
+  height: 5px;
+  background: red;
+  left: 0;
+  bottom: 185px;
+  transform: rotate(0.134turn);
+}
+.line_rotate__45::after {
+  content: "";
+  position: absolute;
+  min-width: 300px;
+  width: 100%;
+  height: 5px;
+  background: red;
+  left: 0;
+  bottom: 185px;
+  transform: rotate(-0.134turn);
+}
